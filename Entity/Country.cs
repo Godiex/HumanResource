@@ -2,14 +2,15 @@ namespace Entity;
 
 public class Country
 {
-    public string CountryId {get;set;}
-    public string CountryName {get;set;}
-    public int RegionId {get; private set;}
+    public string Id {get;set;}
+    public string Name {get;set;}
 
-    public Country(string countryId, string countryName, int regionId)
+    
+
+    public Country(string countryId, string countryName)
     {
-        CountryId = countryId;
-        CountryName = countryName;
-        RegionId = regionId;
+        Id = countryId;
+        Name = countryName;
+       
     }
 }

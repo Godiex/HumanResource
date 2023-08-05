@@ -5,7 +5,7 @@
         public int Id { get; private set; }
         public string Name {get; set;}
 
-        public Region(int id, string name ) 
+        public Region(int id, string name) 
         {
             Id = id;
             Name = name;

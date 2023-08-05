@@ -18,10 +18,10 @@ namespace Entity
         public Location(int id, string streetAddress, string postalCode, string city, string stateProvince)
         {
             Id = id;
-            StreetAddress = street_address;
-            PostalCode = postal_code;
+            StreetAddress = streetAddress;
+            PostalCode = postalCode;
             City = city;
-            StateProvince = state_province;
+            StateProvince = stateProvince;
         }
     }
 }

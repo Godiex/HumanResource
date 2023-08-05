@@ -2,17 +2,16 @@ namespace Entity;
 
 public class Departamento
 {
-private int DepartamentId { get; set; }
-public string  DepartamentName { get; set; }
+public int Id { get; private set; }
+public string  Name { get; set; }
 public int ManagerId { get; set; }
-public int LocationId { get; set; }
+public Location Location { get; set; }
 
-public Departamento (int departamentId, string departamentName,int managerId, int locationId)
+
+public Departamento (int id, string name,int managerId)
 {
-    departamentId = DepartamentId;
-    departamentName = DepartamentName;
-    managerId = ManagerId;
-    locationId = LocationId;
+    Id = id;
+    Name = name;
+    ManagerId = managerId;   
 }
-
 }
